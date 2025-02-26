@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz>
+  <round id="1" title="General Science" time="15" marks="20">
+    <question id="q1">
+      <text>What is the chemical symbol for water?</text>
+      <option>A. H2O</option>
+      <option>B. CO2</option>
+      <option>C. NaCl</option>
+      <option>D. O2</option>
+      <answer>A</answer>
+    </question>
+    <question id="q2">
+      <text>Which planet is known as the Red Planet?</text>
+      <option>A. Earth</option>
+      <option>B. Mars</option>
+      <option>C. Jupiter</option>
+      <option>D. Venus</option>
+      <answer>B</answer>
+    </question>
+  </round>
+  
+  <round id="2" title="General Knowledge" time="15" marks="10">
+    <question id="q1">
+      <text>Who wrote 'Romeo and Juliet'?</text>
+      <option>A. William Shakespeare</option>
+      <option>B. Charles Dickens</option>
+      <option>C. Mark Twain</option>
+      <option>D. Jane Austen</option>
+      <answer>A</answer>
+    </question>
+    <question id="q2">
+      <text>What is the capital of France?</text>
+      <option>A. Berlin</option>
+      <option>B. Madrid</option>
+      <option>C. Paris</option>
+      <option>D. Rome</option>
+      <answer>C</answer>
+    </question>
+  </round>
+  
+  <round id="3" title="Logo Identification" time="8" marks="20">
+    <question id="q1">
+      <text>Which company uses a bitten apple as its logo?</text>
+      <option>A. Microsoft</option>
+      <option>B. Apple</option>
+      <option>C. Google</option>
+      <option>D. Amazon</option>
+      <answer>B</answer>
+    </question>
+    <question id="q2">
+      <text>Which social media platform features a bird as its logo?</text>
+      <option>A. Facebook</option>
+      <option>B. Twitter</option>
+      <option>C. Instagram</option>
+      <option>D. LinkedIn</option>
+      <answer>B</answer>
+    </question>
+  </round>
+</quiz>

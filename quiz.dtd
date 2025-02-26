@@ -1,0 +1,8 @@
+<!ELEMENT quiz (round+)>
+<!ELEMENT round (question+)>
+<!ATTLIST round id CDATA #REQUIRED title CDATA #REQUIRED time CDATA #REQUIRED marks CDATA #REQUIRED>
+<!ELEMENT question (text, option+, answer)>
+<!ATTLIST question id CDATA #REQUIRED>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT option (#PCDATA)>
+<!ELEMENT answer (#PCDATA)>

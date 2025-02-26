@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VIT Entrance Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <!-- Login Section -->
+  <div id="login-container">
+    <h1>VIT Entrance Quiz</h1>
+    <form id="login-form">
+      <label for="email">Enter your VIT Email:</label>
+      <input type="email" id="email" required placeholder="yourname@vit.edu or johndoe2022@vitstudent.ac.in">
+      <button type="submit">Login</button>
+    </form>
+    <div id="login-error" class="error"></div>
+  </div>
+
+  <!-- Quiz Section -->
+  <div id="quiz-container" style="display: none;">
+    <h2 id="round-title"></h2>
+    <div id="timer">Time left: <span id="time">00:00</span></div>
+    <div id="question-container"></div>
+    <button id="next-btn">Next</button>
+  </div>
+
+  <!-- Result Section -->
+  <div id="result-container" style="display: none;">
+    <h2>Quiz Completed!</h2>
+    <p id="score-display"></p>
+    <p id="admission-display"></p>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
